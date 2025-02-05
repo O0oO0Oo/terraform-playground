@@ -1,0 +1,56 @@
+# Created by https://www.toptal.com/developers/gitignore/api/linux,terraform
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,terraform
+
+### Linux ###
+# Temporary files
+*~
+
+# Temporary files created when a process still has a handle open on a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### Terraform ###
+# Local .terraform directories (Terraform plugin cache, lock files, etc.)
+.terraform/
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash log files
+crash.log
+crash.*.log
+
+# Terraform variable files (likely to contain sensitive data)
+*.tfvars
+*.tfvars.json
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control using negated pattern
+# !example_override.tf
+
+# Ignore Terraform plan output files
+*tfplan*
+
+# Ignore Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+### General ###
+# macOS system files
+.DS_Store
+
